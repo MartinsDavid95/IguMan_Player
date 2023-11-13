@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MusicPlayer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/colorPrimary</item>
+         <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+         <item name="colorOnPrimary">@color/colorOnPrimary</item>
+    </style>
+
+    <style name="Theme.MusicPlayer" parent="Base.Theme.MusicPlayer" />
+    <style name="mySeekBar" parent="Theme.MusicPlayer">
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlNormal">@color/grey</item>
+    </style>
+</resources>
